@@ -13,7 +13,7 @@ from pytube.exceptions import RegexMatchError, MaxRetriesExceeded
 from pytube.helpers import regex_search
 
 logger = logging.getLogger(__name__)
-default_range_size = 9437184  # 9MB
+default_range_size = 524288  # 512kb
 
 
 def _execute_request(
